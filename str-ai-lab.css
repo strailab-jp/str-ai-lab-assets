@@ -212,7 +212,7 @@
       padding:14px 20px;
       border-radius:999px;
       border:1px solid transparent;
-      font-size:15px;
+      font-size:16px;
       line-height:1.2;
       font-weight:780;
       text-align:center;
@@ -2444,7 +2444,7 @@ html:not(.str-lp-boot) #str-ai-lab-lp{
   }
 
   #str-ai-lab-lp .cta-copy p{
-    font-size:15.5px!important;
+    font-size:16px!important;
     line-height:1.82!important;
   }
 }
