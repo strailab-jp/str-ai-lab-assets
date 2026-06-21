@@ -2666,7 +2666,7 @@ html:not(.str-lp-boot) #str-ai-lab-lp{
   }
 
   #str-ai-lab-lp .demo-mini-body p{
-    font-size:15px!important;
+    font-size:16px!important;
   }
 }
 
@@ -2707,7 +2707,7 @@ html:not(.str-lp-boot) #str-ai-lab-lp{
   }
 
   #str-ai-lab-lp .demo-mini-body p{
-    font-size:15px!important;
+    font-size:16px!important;
   }
 }
 
@@ -3050,7 +3050,7 @@ html:not(.str-lp-boot) #str-ai-lab-lp{
 @media (max-width:760px){
   #str-ai-lab-lp .demo-library{
     margin-top:32px!important;
-    padding:24px 8px!important;
+    padding:24px 6px!important;
     border-radius:26px!important;
   }
 
@@ -3091,7 +3091,7 @@ html:not(.str-lp-boot) #str-ai-lab-lp{
 
 @media (max-width:374px){
   #str-ai-lab-lp .demo-library{
-    padding:22px 14px!important;
+    padding:22px 6px!important;
   }
 
   #str-ai-lab-lp .demo-library-head h3{
