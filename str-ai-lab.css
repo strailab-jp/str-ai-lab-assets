@@ -2337,9 +2337,12 @@ html:not(.str-lp-boot) #str-ai-lab-lp{
     width:min(242px,calc(100vw - 24px))!important;
   }
 
-  #str-ai-lab-lp #expand .section-title h2,
-  #str-ai-lab-lp #comparison .section-title h2{
+  #str-ai-lab-lp #expand .section-title h2{
     font-size:26px!important;
+  }
+  
+  #str-ai-lab-lp #comparison .section-title h2{
+    font-size:24px!important;
   }
 }
 
