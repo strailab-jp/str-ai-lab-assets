@@ -2338,7 +2338,7 @@ html:not(.str-lp-boot) #str-ai-lab-lp{
   }
 
   #str-ai-lab-lp #expand .section-title h2{
-    font-size:26px!important;
+    font-size:25px!important;
   }
   
   #str-ai-lab-lp #comparison .section-title h2{
@@ -3063,7 +3063,7 @@ html:not(.str-lp-boot) #str-ai-lab-lp{
   }
 
   #str-ai-lab-lp .demo-library-head h3{
-    font-size:26px!important;
+    font-size:25px!important;
     line-height:1.42!important;
     margin-bottom:10px!important;
   }
@@ -3237,7 +3237,7 @@ html:not(.str-lp-boot) #str-ai-lab-lp{
   }
 
   #str-ai-lab-lp .model-case-head h3{
-    font-size:26px;
+    font-size:25px;
   }
 
   #str-ai-lab-lp .model-case-grid{
