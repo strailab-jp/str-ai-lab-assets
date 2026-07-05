@@ -3275,3 +3275,29 @@ html:not(.str-lp-boot) #str-ai-lab-lp{
     order: 2 !important;
   }
 }
+
+@media (max-width:760px){
+  #str-ai-lab-lp .demo-step span,
+  #str-ai-lab-lp .service-card p,
+  #str-ai-lab-lp .example,
+  #str-ai-lab-lp .price-card p,
+  #str-ai-lab-lp .value-point span,
+  #str-ai-lab-lp .compare-card dd,
+  #str-ai-lab-lp .price-note {
+    font-size:16px!important;
+    line-height:1.82!important;
+  }
+
+  #str-ai-lab-lp .demo-step strong,
+  #str-ai-lab-lp .value-point b {
+    font-size:16.5px!important;
+    line-height:1.45!important;
+  }
+
+  #str-ai-lab-lp .section-title p,
+  #str-ai-lab-lp .compare-lead,
+  #str-ai-lab-lp .expand-note {
+    font-size:16.5px!important;
+    line-height:1.9!important;
+  }
+}
