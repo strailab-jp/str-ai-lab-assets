@@ -225,9 +225,9 @@
       box-shadow:0 12px 24px rgba(20,35,61,.16);
     }
     .btn-secondary{
-      background:#fff;
+      background:var(--accent3);
       color:var(--navy);
-      border-color:#d5deea;
+      border-color:#ead7b6
     }
     .trust-row{
       display:flex;
@@ -3256,5 +3256,12 @@ html:not(.str-lp-boot) #str-ai-lab-lp{
 
   #str-ai-lab-lp .model-note{
     font-size:15.3px;
+  }
+}
+
+@media (max-width: 767px) {
+  #demo .case-frame,
+  #demo .flow {
+    display: none !important;
   }
 }
