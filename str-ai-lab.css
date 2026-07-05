@@ -3265,3 +3265,13 @@ html:not(.str-lp-boot) #str-ai-lab-lp{
     display: none !important;
   }
 }
+
+@media (max-width: 760px) {
+  #str-ai-lab-lp .hero-actions .btn-secondary {
+    order: 1 !important;
+  }
+
+  #str-ai-lab-lp .hero-actions .btn-primary {
+    order: 2 !important;
+  }
+}
