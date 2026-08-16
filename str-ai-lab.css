@@ -4213,7 +4213,7 @@ html:not(.str-lp-boot) #str-ai-lab-lp{
 /* pricing note */
 #str-ai-lab-lp .webapp-price-note{
   margin:18px auto 0;
-  max-width:920px;
+  max-width:800px;
   padding:14px 16px;
   border:1px solid #dfe7f1;
   border-radius:15px;
@@ -4412,4 +4412,75 @@ html{scroll-padding-top:72px}
   font-size:15.3px!important;
   line-height:1.78!important;
   padding:16px 18px!important;
+  text-align: center!important;
+  
+}
+
+
+/* ===== MOBILE PARTS-CARD ALIGN FIX 2026-08-16 =====
+   元コードのスマホ幅を維持したまま、ACTUAL IMPLEMENTATION だけを
+   「業務整理に使うパーツの組み合わせ例」の各事例カードと同じ幅・文字階層へ揃える。
+   Super.so の CSS 欄への追記は不要。GitHub CSS の正本側で管理する。
+   ============================================================ */
+@media (max-width:760px){
+  /* 元コードの .wrap / #expand .expand-wrap / .demo-library は変更しない。 */
+
+  /* demo-library のスマホ横padding 6px と完全に同じにする */
+  #str-ai-lab-lp #actual-case.implementation-cases{
+    width:100%!important;
+    max-width:100%!important;
+    margin:30px 0 0!important;
+    padding:24px 6px!important;
+    border-radius:26px!important;
+    box-sizing:border-box!important;
+  }
+
+  #str-ai-lab-lp #actual-case .implementation-case{
+    width:100%!important;
+    max-width:100%!important;
+    grid-template-columns:1fr!important;
+    gap:16px!important;
+    margin:0!important;
+  }
+
+  /* 利用者の声 / 実装例カードの外幅を demo-mini-card と同じ100%へ */
+  #str-ai-lab-lp #actual-case .implementation-main,
+  #str-ai-lab-lp #actual-case .implementation-voice{
+    width:100%!important;
+    max-width:100%!important;
+    margin:0!important;
+    box-sizing:border-box!important;
+    padding:18px!important;
+    border-radius:20px!important;
+  }
+
+  /* 「業務整理に使うパーツの組み合わせ例」と同じセクション見出し階層 */
+  #str-ai-lab-lp #actual-case .implementation-cases-head h3{
+    font-size:27px!important;
+    line-height:1.42!important;
+    margin-bottom:10px!important;
+  }
+  #str-ai-lab-lp #actual-case .implementation-cases-head p{
+    font-size:16px!important;
+    line-height:1.84!important;
+  }
+
+  /* 各事例カードの見出し・本文と同じ文字階層 */
+  #str-ai-lab-lp #actual-case .implementation-main h4,
+  #str-ai-lab-lp #actual-case .implementation-voice h4{
+    font-size:18.5px!important;
+    line-height:1.45!important;
+  }
+  #str-ai-lab-lp #actual-case .case-summary,
+  #str-ai-lab-lp #actual-case .implementation-voice blockquote{
+    font-size:16px!important;
+    line-height:1.78!important;
+  }
+}
+
+@media (max-width:374px){
+  /* 元コードの demo-library-head h3 = 25px と同じ */
+  #str-ai-lab-lp #actual-case .implementation-cases-head h3{
+    font-size:25px!important;
+  }
 }
