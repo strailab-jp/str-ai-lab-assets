@@ -4213,7 +4213,7 @@ html:not(.str-lp-boot) #str-ai-lab-lp{
 /* pricing note */
 #str-ai-lab-lp .webapp-price-note{
   margin:18px auto 0;
-  max-width:920px;
+  max-width:800px;
   padding:14px 16px;
   border:1px solid #dfe7f1;
   border-radius:15px;
@@ -4412,4 +4412,5 @@ html{scroll-padding-top:72px}
   font-size:15.3px!important;
   line-height:1.78!important;
   padding:16px 18px!important;
+  text-align: center!important;
 }
