@@ -4941,14 +4941,3 @@ html{scroll-padding-top:72px}
   }
 }
 
-/* ===== iPhone hero copy font-size FIX 2026-09-01 ===== */
-@media(max-width:760px){
-  #str-ai-lab-lp #top .hero-copy-v10 .lead{
-    font-size:17px!important;
-    line-height:1.84!important;
-  }
-
-  #str-ai-lab-lp #top .hero-copy-v10 .lead-focus-line{
-    line-height:1.84!important;
-  }
-}
