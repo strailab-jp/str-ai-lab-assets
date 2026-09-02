@@ -5027,3 +5027,10 @@ html{scroll-padding-top:72px}
     line-height:1.45!important;
   }
 }
+
+/* ===== HERO CTA 上余白FIX｜2026-09-02 ===== */
+@media(min-width:761px){
+  #str-ai-lab-lp #top .hero-actions{
+    margin-top:34px!important;
+  }
+}
